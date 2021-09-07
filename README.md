@@ -31,18 +31,18 @@ If you want to use your own test data file you can give the command as below. Th
 
 After  `mvn clean install`  command run the below commands
 
-java -cp target/toyrobot-0.0.1-SNAPSHOT.jar toyrobot.App   -> default testdata
-java -cp target/toyrobot-0.0.1-SNAPSHOT.jar toyrobot.App C:\deepthi\test.txt   ->override testdata
+	java -cp target/toyrobot-0.0.1-SNAPSHOT.jar toyrobot.App   -> default testdata
+	java -cp target/toyrobot-0.0.1-SNAPSHOT.jar toyrobot.App C:\deepthi\test.txt   ->override testdata
 
  # Option3
 
 In addition to the above, you can import the project into eclipse or anyother ide and run the application.
 
 Main class can be found under
-	- toyrobot.App
+	- **toyrobot.App**
 
 Test class can be found under
-	- toyrobot.app.RobortsimulatorTest
+	- **toyrobot.app.RobortsimulatorTest**
 	
 Test data used for running the test cases can be found under	
-	- src/test/resources/
+	- **src/test/resources/**
